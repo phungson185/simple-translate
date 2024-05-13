@@ -41,9 +41,43 @@
     flex-direction: row;
     justify-content: flex-end;
     margin-top: 1em;
+    margin-bottom: 1em;
     margin-inline-end: 5px;
     & > * {
       margin-inline-start: 10px;
     }
   }
+}
+
+.maziiContainer {
+}
+
+.resultMazii {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.resultMazii .maziiCmt {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 10px !important;
+}
+
+.cmtInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cmtInfo .like,
+.dislike,
+.username {
+  color: #fff;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.cmtInfo .username {
+  margin-right: 0;
+  font-style: italic;
 }
